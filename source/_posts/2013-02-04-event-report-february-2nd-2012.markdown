@@ -13,7 +13,7 @@ permalink: /2013/02/event-report-february-2nd-2012.html
 
     
 
-On February 2, 2013, first in the series of [Openstack](http://openstack.org/) talks was organized at [Manipal Institute of Technology](http://www.manipal.edu/Institutions/Engineering/MIT/Pages/Welcome.aspx). It was attended by around 40 students & faculty from BE & M-Tech courses. 
+On February 2, 2013, first in the series of [Openstack](http://openstack.org/) talks was organized at [Manipal Institute of Technology](http://www.manipal.edu/Institutions/Engineering/MIT/Pages/Welcome.aspx). It was attended by around 40 students & faculty from BE & M-Tech courses.
 
     
 
@@ -48,7 +48,7 @@ Mohit Sethi ( [@mohitsethi](http://twitter.com/mohitsethi)) explained how to con
 
     
 
-Thanks to management of Manipal Institute of Technology,Manipal University for hosting the talks. 
+Thanks to management of Manipal Institute of Technology,Manipal University for hosting the talks.
 
 Special mention of thanks to Dr. Manohara Pai M. M. (Associate Director-Innovation Center, Manipal University) and Dr. Preetham Kumar (Head - Department of Information & Communication Technology) for all the support.
 
