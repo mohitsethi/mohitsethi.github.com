@@ -1,8 +1,9 @@
 {% if site.coderwall_user %}
 <section class="well">
-   <h1>Coderwall Badges</h1>
+  <h1>Coderwall Badges</h1>
   <div id="coderwall_badges"></div>
   <a href="http://coderwall.com/{{site.coderwall_user}}"><strong>@{{site.coderwall_user}}</strong></a> on coderwall
+  <a href="https://coderwall.com/{{site.coderwall_user}}"><img alt="Endorse {{site.coderwall_user}} on Coderwall" src="https://api.coderwall.com/{{site.coderwall_user}}/endorsecount.png" /></a>
   <script type="text/javascript">
     $(document).ready(function(){
       $.getJSON("http://coderwall.com/{{site.coderwall_user}}.json?callback=?", function(data){
