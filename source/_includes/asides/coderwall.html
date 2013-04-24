@@ -4,10 +4,10 @@
     <li class="nav-header">Coderwall Badges</li>
   </ul>
   <div id="coderwall_badges"></div>
-  <a href="http://coderwall.com/mohitsethi">@mohitsethi</a> on coderwall
+  <a href="http://coderwall.com/{{site.coderwall_user}}">@{{site.coderwall_user}}</a> on coderwall
   <script type="text/javascript">
     $(document).ready(function(){
-      $.getJSON("http://coderwall.com/mohitsethi.json?callback=?", function(data){
+      $.getJSON("http://coderwall.com/{{site.coderwall_user}}.json?callback=?", function(data){
         for(var i = 0; i < data.data.badges.length ; i++){
           var badge = data.data.badges[i];
           var badge_tag = $("<img />");
