@@ -1,8 +1,10 @@
 {% if site.coderwall_user %}
 <section class="well">
-   <h1>Coderwall Badges</h1>
+  <ul class="nav">
+    <li class="nav-header">Coderwall Badges</li>
+  </ul>
   <div id="coderwall_badges"></div>
-  <a href="http://coderwall.com/{{site.coderwall_user}}"><strong>@{{site.coderwall_user}}</strong></a> on coderwall
+  <a href="http://coderwall.com/{{site.coderwall_user}}">@{{site.coderwall_user}}</a> on coderwall
   <script type="text/javascript">
     $(document).ready(function(){
       $.getJSON("http://coderwall.com/{{site.coderwall_user}}.json?callback=?", function(data){
@@ -10,7 +12,7 @@
           var badge = data.data.badges[i];
           var badge_tag = $("<img />");
           badge_tag.attr("src",badge.badge);
-          badge_tag.css("width","30%");
+          badge_tag.css("width","50%");
           $("#coderwall_badges").append(badge_tag);
         }
       });
